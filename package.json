@@ -5,9 +5,9 @@
   "author": "Jelili Abdullahi <osuolaleabdullahi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/server.ts",
     "start": "node dist",
-    "build": "esbuild index=./src --bundle --minify --outdir=dist --packages=external --platform=node"
+    "build": "esbuild index=./src/server.ts --bundle --minify --outdir=dist --packages=external --platform=node"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
