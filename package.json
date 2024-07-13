@@ -6,10 +6,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "start": "node dist"
+    "start": "node dist",
+    "build": "esbuild server=./src --bundle --minify --outdir=dist --packages=external --platform=node"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "esbuild": "^0.23.0",
     "express": "^4.19.2",
     "swagger-ui-express": "^5.0.1",
     "yaml": "^2.4.5"
