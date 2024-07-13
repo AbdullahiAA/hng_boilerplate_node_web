@@ -1,7 +1,6 @@
 {
   "name": "hng_boilerplate_node_web",
   "version": "1.0.0",
-  "repository": "https://github.com/hngprojects/hng_boilerplate_node_web.git",
   "author": "Jelili Abdullahi <osuolaleabdullahi@gmail.com>",
   "license": "MIT",
   "scripts": {
