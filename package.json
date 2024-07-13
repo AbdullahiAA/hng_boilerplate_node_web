@@ -1,0 +1,24 @@
+{
+  "name": "hng_boilerplate_node_web",
+  "version": "1.0.0",
+  "repository": "https://github.com/hngprojects/hng_boilerplate_node_web.git",
+  "author": "Jelili Abdullahi <osuolaleabdullahi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "node dist"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.1",
+    "yaml": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
