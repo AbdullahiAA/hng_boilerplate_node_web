@@ -5,6 +5,10 @@
 
 This API provides an extended interface for user management, roles, and permissions.
 
+## Database Design
+
+<a href="https://ibb.co/3y3PktZ"><img src="https://i.ibb.co/TBfNrz3/erd-stage-three.png" alt="erd-stage-three" border="0"></a>
+
 ## Base URL
 
 ```
