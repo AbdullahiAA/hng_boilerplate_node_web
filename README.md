@@ -1,8 +1,8 @@
-# [App Name] Integration Documentation
+# Holy Squad Integration Documentation
 
 ## Overview
 
-[Description]
+This is the Holy Squad API specifications project for the third stage at HNG 11.
 
 ## Folder Structure
 
@@ -253,4 +253,4 @@ All API endpoints can be referenced in the [API Reference](API_REFERENCE.md) doc
 
 ## Versioning
 
-This project is versioned to ensure backward compatibility and easy maintenance. The current version is [version].
+This project is versioned to ensure backward compatibility and easy maintenance. The current version is 1.0.0.
